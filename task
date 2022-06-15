@@ -18,5 +18,25 @@
 
 10) mysql 
 
+11) take an array of 5 numbers. 
+    create right shift function which takes 1 argument countShift.
+    if countShift is 1 and your array is a = [1,2,3,4,5] 
+    output : 5 1 2 3 4 
+    
+    if countShift is 3 and your array is a = [1,2,3,4,5]
+    output: 3 4 5 1 2 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+	
+
 
   
