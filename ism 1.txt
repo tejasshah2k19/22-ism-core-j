@@ -143,10 +143,42 @@ class : final [ no 1 can inherit ]
 method : final [ no 1 can override ] 
 variable : final [constant no 1 can modify ] 
 ------------------------------------------------
+memory wast. 
+immutable 
+non self destructive 
+String s  = "india" ; 
+s.concat("gj"); 
+s = india 
+indaigj 
+------------------------
+StringBuffer --- sync
+StringBuilder --- XXX 
+------------------------
+private 
+
+default 
+
+protected 
+
+public 
+------------------------
 
 
+royal						ism 
+public Abc - class 				Def - class   
+  public demo 				   			import royal.Abc; 	
+									Abc a = new Abc();
+									a.demo();
 
 
+------------------------
+10 number -> sum 
+array -> size -> same type 
+
+1)   a[]   - 1dimension 
+2)   a[][] - 2dimension  
+3)   a[][][] - nDimension - multiDimension 
+4)   ragged Array - JaggedArray -- AoA 
 
 
 

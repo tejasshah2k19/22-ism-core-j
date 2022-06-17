@@ -26,6 +26,79 @@
     if countShift is 3 and your array is a = [1,2,3,4,5]
     output: 3 4 5 1 2 
     
+12) 
+	Student 
+			-studentId 
+			-name 
+			-email
+			-password 
+			
+	when any student registered studentId will automatically assign 
+	an unique number. 
+	name email and password will input by student. 
+	
+    create two methods 1) input 2) print 
+    
+    
+    111111	ram	ram@gmail.com	ram123 
+    
+ 13)
+ 	class Levis 
+ 		name
+ 		price
+ 		category 
+ 		tax 
+ 		amount    
+   	methods 
+   		input 
+   		print 
+   		
+   	user can purchase any item from levis . when user purchase they input all the details
+   	of item for levis , tax need to calculate automatically. 
+   	tax is based on price of levis item. 
+   	like, if category is men then tax is 15% 
+   	         category is women then tax is 10% 
+   	         category is student then tax is 5% 
+   	         
+   	once all input done print all response. 
+   	
+   	ex: 
+   	input:
+   	    name : denim jeans  
+   	    price : 1500
+   	    category : men 
+   	    
+   	output : 
+   	  denim jeans 	1500	men 225  1725 
+   	  
+   	  
+14) perform leftshit in 11 number using recursion.    
+
+15) 
+
+Ticket Booking System.
+
+Login
+Exit 
+
+Login => mobile number 
+
+1.1 	Book Ticket { Gold Silver Diamond -Qty } 
+1.2	View Booked Tickets
+1.3	Available Tickets 
+1.4       Logout
+
+Three Types of Ticket , Diamond - Rs.200 , Gold - Rs.150 , Silver -Rs.100 	
+One user can book max 7 Tickets.
+Total 60 tickets we have 20 Diamond , 20 Gold and 20 Silver.
+User can identified by mobile number. 
+
+16) 	  	    
+   	    
+   		
+   		
+   		
+   			 
     
     
     
