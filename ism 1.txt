@@ -180,6 +180,142 @@ array -> size -> same type
 3)   a[][][] - nDimension - multiDimension 
 4)   ragged Array - JaggedArray -- AoA 
 
+-----------------------------
+class
+
+object 
+
+instance 
+
+constructor 
+
+inheritance 
+
+super 
+
+public private protected default 
+
+array 
+-----------------------------------------------
+class : Person 
+	private firstName
+	private lastName 
+	private gender 
+
+	input()
+	print()
+create 3 person ram sita ravan and print in tabular format. //10
+
+FirstName	LastName	Gender 
+Ram		Patel		Male
+Sita		Patel		Female	
+Ravan		Patel		Male 
+
+--------------------------------------------
+modify Person class  and add 3 setters for firstname,
+lastname and gender so person can modify any detail using setters. 
+
+public void setFirstName(String fn){
+	firstName = fn;
+}
+
+public String getFirstName(){
+	return firstName;
+}
+--------------------------------------------
+modify Person class and add 3 getters for firstname,
+lastname and gender so person can we can print 
+single field any time. 
+--------------------------------------------
+add 1 more field in person class salary. 
+every person get 10000 as salary. 
+--------------------------------
+print all person details in tabular format
+----------------------------------
+find who get highest salary
+---------------------------
+
+
+
+
+create a class Cricketer 
+having 3 property
+name 
+matchPlayed
+rank 
+
+create functions 
+getData()
+
+calculateRank()
+
+	if match Played >= 150 
+		rank is 1
+	if matchPlayed >= 50
+		rank is 5
+	if matchPlayed >= 100
+		rank is 3
+	if matchPlayed < 50
+		rank is 100
+
+display()
+	output:
+	
+		Name 	    :  	Ram
+		MatchPlayed :   250
+		Rank	    :   1
+
+
+------------------------------------------------------
+static --> class level { variable,method} 
+final -->  {variable,method,class} 
+
+final class -> no1 can inherit 
+final variable -> constant 
+final method --> no1 can override  
+
+
+abstract --> 
+
+class Bank{
+	static int branchCode;
+
+	public static int getBranchCode(){
+		return branchCode;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
