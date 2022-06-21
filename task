@@ -118,6 +118,7 @@ output->   1  -1   2   -2    3    -3     4    -4     5    -5
    		
    		
  --------------------------------------------------------------------------------------------------
+ 20) 
  
  Telephone Diary 
 
@@ -141,6 +142,21 @@ e.g
    		
    			 
  ----------------------------------------------------------------------------------------------------------   
+   21) 
+    Insurance Calc 
+		An insurance company follows following rules to calculate premium.
+		a. If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a
+		city and is a male then the premium is Rs. 4 per thousand.
+		b. If a person satisfies all the above conditions except that the gender is female then the premium is
+		Rs. 3 per thousand.
+		c. If a person’s health is poor and the person is between 25 and 35 years of age and lives in a
+		village and is a male then the premium is Rs. 6 per thousand.
+		d. In all other cases the person is not insured.
+		Take a person's health, age, city and gender as an input and display the premium as per the rule.
+		   
+   
+   
+   22) check image task22.png for detail 
     
     
     

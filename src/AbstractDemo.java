@@ -3,7 +3,12 @@ import java.applet.Applet;
 public class AbstractDemo {
 
 	public static void main(String[] args) {
-
+		Ravan r = new Ravan();
+		r.securityQuestion();
+		r.forgetpassword("");
+		LoginModule rl = new Ravan();
+		rl.forgetpassword("");
+//		rl.securityQuestion();
 	}
 }
 
@@ -12,11 +17,20 @@ abstract class Santa {
 }
 
 abstract class LoginModule {
-
 	abstract public void login();
 
 	abstract public void forgetpassword(String email);
+}
 
+class Ravan extends LoginModule {
+	public void login() {
+	}
+
+	public void forgetpassword(String email) {
+	}
+
+	public void securityQuestion() {
+	}
 }
 
 abstract class Raj extends LoginModule {
@@ -34,7 +48,7 @@ class ChildRaj extends Raj {
 	}
 }
 
-abstract interface RBI { //pure abstract class 
+abstract interface RBI { // pure abstract class
 	abstract void wid();
 
 	public abstract void dep();
@@ -51,13 +65,10 @@ class ICICI implements RBI {
 
 	}
 }
+
 //multiple inheritance 
 class AtmMenu extends Applet implements Runnable {
 	public void run() {
 
 	}
 }
-
-
-
-

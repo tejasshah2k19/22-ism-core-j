@@ -284,8 +284,54 @@ class Bank{
 		return branchCode;
 	}
 }
+interface RBI{
+	//method - public abstract 
+	//variable - public static final 
+}
+------------------------------------------------------
+
+List list = new ArrayList();
+ArrayList list = new ArrayList();
+
+List list = new Vector();
+
+------------------------------------------------------
+
+exception - runtime Error 
+Exception - class - 
+
+.java --> compile --> .class --> run --> crash 
+
+exception handle
+
+try 
+hit 
+throw 
+catch 
+
+------------------------------------------------------
+						Object
+						Throwable 
+				Error 				Exception
+									IO		RuntimeException 
+									FN		Arith
+									PE		Input 
+											NullPointerException
+											ArrayIn
+											StringIn
+											
+				checked vs unchecked 
+				
+finally-->try 
+finalize()-->method 
+------------------------------------------------------
 
 
+throw  ---> keyword --> exception throw 
+throws --> keyword -> bypass/skip - to avoid 
+Throwable --> class 
+
+------------------------------------------------------
 
 
 
