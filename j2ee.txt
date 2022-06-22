@@ -1,0 +1,97 @@
+jsp/servlet 
+website --> server ==>java web server
+
+j2ee tools 
+
+java 
+	8.X 
+	eclipse jee
+	file => new -> other -> type dynamic --> web->dynamicweb -> oky 
+	google.com -> download eclipse jee
+	tomcat 8.5.X 
+ 		next -> accept -> admin/admin 
+			port -> 9898 / 9999 / 9797 	  
+	postgres 14
+	
+
+
+
+Frontend : JSP 
+Backend  : Java / Servlet
+DataBase : PostgreSQL 
+  
+
+how to add tomcat in eclipse?
+------------------------------------
+file-->new-->other-->type server-->select server->next->Apache->tomcat 8.5 -> next -> browse->
+apache tomcat --> select path where u can see bin and other folders --> finish  
+
+
+when we install pg  untick stack builder -> we dont need that 
+
+
+ 
+
+create project in eclipse
+-------------------------------
+create poject -> file -> new -> other -> dynamic web -> select -> dynamic web project --> 
+1) project name -> 22-intern-demo ->
+2) dynamic web module version --> 2.5 
+
+next -> next -> finish [ verify check box of web.xml -> must be tick  ] 
+
+			
+create first index page
+---------------------------
+webcontent/webapp-> right click -> new -> html -> index.html ->finish 
+
+
+
+how to run?
+------------
+project->right click -> run as -> run on server -> server? -> tomcat8.5 select -> next ->  finish 
+it will open internal browser with  index.html 
+
+
+how to change port number ?
+-------------------------------
+down side beside console you can find server tab -> inside server tab you can find ->tomca 8.5 XXX 
+dobule click on tomcat  8.5 -> it will open some config page -> righ side u can find ports -> 
+chage all ports with 9000+ values 
+like. 
+	admin port   9696
+	http port    9999 
+  	ajp port     9595 
+
+all ports must be unique.
+
+
+how to change browser in eclipse?
+----------------------------------
+go to window menu -> browser -> select  browser that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
