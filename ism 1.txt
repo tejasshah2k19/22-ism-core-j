@@ -333,7 +333,39 @@ Throwable --> class
 
 ------------------------------------------------------
 
+VibrantGujSummit {
 
+	int year; 
+	Industry industry[];
+	VGS(int totalIndustry){
+		this.industry = new Industry[totalIndustry];
+	} 
+}
+
+
+admin 
+	add sumit 
+
+	ind = 25 
+	VibrantGujSummit vg = new V(ind);
+	vg.year = 2010 
+	for(int i=0;i<vg.industry.length;i++){
+		syso("enter ind name :");
+		vg.industry[i].name = sc.nextLine();
+		vg.industry[i].noOfPeople = sc.nextInt();
+	}
+
+class Industry 
+	name 
+	noOfpeople 
+	
+
+Industry i = new Industry();
+i.year = 2010
+i.name = sw 
+i.noOfPeople = 1800
+
+-------------------------------------------------
 
 
 
