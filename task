@@ -173,14 +173,65 @@ e.g
 
 
 
+					Collection 
 
-
-    
-    
-    
-    
-     
+ List		Queue			Set 			Map    
+  ArrayList   
+  Vector    
+ 
+  sync.    
+  thread safe    
 	
+*) why ArrayList ? how it works internally ?  what if it overflow or it is possible?
+	what is the max size of ArrayList?
 
+
+Queue -> 	 
+
+
+
+ 	public String toString() {
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+    }	
+	
+	toString()
+	getClass()->getName()
+	
+-----------------------------------------
+1) in package 
+2) import 
+3) ext 
+4) jre 
+5) classpath   javac java -cp 
+----------------------------------------
+bootstrap - rt.jar
+ext
+system/application [classpath] 
+----------------------------------------
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
   

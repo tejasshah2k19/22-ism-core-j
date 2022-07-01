@@ -1,5 +1,6 @@
 
 public class Calc {
+
 	protected void add() {
 		System.out.println("add()");
 	}
