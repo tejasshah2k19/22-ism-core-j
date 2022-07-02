@@ -208,6 +208,39 @@ bootstrap - rt.jar
 ext
 system/application [classpath] 
 ----------------------------------------
+Bank App.
+
+Bank provides various service to the user  like deposit money, wid money and customer can check balance. 
+Bank have some conditions. 
+Customer have to maintain 5000 min balance. 
+Customer can perform max 5  transaction and then customer is charged 10 Rs per transaction.
+Customer can access bank app via Username/Password. 
+Customers have an account number which is generated via random algo. 
+
+Menu
+Login
+Exit 
+
+	1.1 wid
+	1.2 Dep 
+	1.3 CheckBal 
+	1.4 Logout 
+-------------------------------------------------------------
+You need to design an api for google LLC.   your api will verify the syntax of email address ,  syntax for email is , 
+it must contains gmail.com at last. 
+The name can have a-z A_Z 0-9
+Between name(tejasshah)  and domain(gmail.com)  it must contains “@”
+If above rule is not followed then InvalidEmailException will throw by your api.   
+
+-------------------------------------------------------------
+
+Create 1 thread that find sum of 1 to 100 and print sum. 
+
+
+create 2 thread 1st thread find sum of 1 to 50 and 2nd thread find sum of 51 to 100
+once both the thread find sum then print final sum. 
+-------------------------------------------------------------
+
 
 	
 	
