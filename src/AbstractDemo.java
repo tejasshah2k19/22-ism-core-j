@@ -1,4 +1,5 @@
 import java.applet.Applet;
+import java.io.Serializable;
 
 public class AbstractDemo {
 
@@ -40,13 +41,18 @@ abstract class Raj extends LoginModule {
 	}
 
 }
-
+class Person implements Serializable{
+	
+}
 class ChildRaj extends Raj {
 
+	Serializable s;//? file --> 
 	public void login() {
 
 	}
 }
+
+
 
 abstract interface RBI { // pure abstract class
 	abstract void wid();

@@ -5,7 +5,7 @@ public class ThreadDemo {
 
 	public static void main(String[] args) {
 		Copy c = new Copy();
-//		c.start();
+		c.start();
 //
 		Print p = new Print();
 //		p.start();

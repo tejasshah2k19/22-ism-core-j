@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Person {
+public class Person1 {
 
 	private String firstName;
 	private String lastName;
 	private String gender;
 	private int salary;
 
-	public Person() {
+	public Person1() {
 		this.salary = 10000;
 	}
 
@@ -57,10 +57,10 @@ public class Person {
 
 	public static void main(String[] args) {
 
-		Person p[] = new Person[10];
+		Person1 p[] = new Person1[10];
 
 		for (int i = 0; i < 3; i++) {
-			p[i] = new Person();
+			p[i] = new Person1();
 			p[i].input();
 		}
 		System.out.println("firstName LastName Gender");
