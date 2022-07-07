@@ -1,6 +1,8 @@
+
 package iodemo;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -15,5 +17,18 @@ public class FileOutputStreamDemo {
 		fos.write('x');//
 //		fos.write(b, off, len);
 		fos.close();
+
+		FileInputStream fis = new FileInputStream(f);
+
+		while (true) {
+			int b = fis.read();// first character read --> ascii
+			if(b == -1) {
+				break;
+			}
+			System.out.println((char)b);//explicit
+		
+		}
+		fis.close();
+
 	}
 }

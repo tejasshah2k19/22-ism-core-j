@@ -260,13 +260,60 @@ interface A{
 design pattern ! 
 java design pattern ! 
 
+-------------------------------------------------------------
+int a = 9;
+int b = 2;
+int c = a/b; //implicit
+
+print c //4 
+************
+int a = 9;
+int b = 2;
+float c = (float)a/b; //explicit 
+
+print c //4 
+		
+-------------------------------------------------------------
+int a[] = {1,2,3,4,5};
+
+s.o.p(a); 	
 	
+-------------------------------------------------------------
+take 10 numbers from user. now read that number and store into odd.txt if number is odd and 
+store into 	even.txt if number is even.
+
+take 1 file name with entire path
+	if file is present count total number of vowels from it.
+	if file not present print file not present try again.
 	
+take 1 folder name with user and count how many java files present in that folder. 
+if user entered wrong directory handle that scenario with proper message. 
+
+-------------------------------------------------------------
+empl app 
+	id 
+	name
+	salary
 	
+5000 
+	backup -> file  
 	
+	read 
 	
-	
-	
+1,ram,15000
+2,laxman,20000
+3,raja,5000
+4,hero,15000
+
+
+-------------------------------------------------------------
+serialization --> writing an instance , state of an instance , is known serilization. [ file , persistent storage]
+-------------------------------------------------------------
+ObjectOutputStream --> defaultWriteObject() 
+-------------------------------------------------------------
+
+
+ 
 	
 	
 	

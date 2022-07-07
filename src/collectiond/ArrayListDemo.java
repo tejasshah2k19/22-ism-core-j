@@ -15,7 +15,7 @@ public class ArrayListDemo {
 		System.out.println(list);
 		System.out.println(list.get(0));
 
-		int x = (int) list.get(0);
+//		int x = (int) list.get(0);
 		list.remove(0);// 0 index
 		System.out.println(list);
 		list.remove((Integer) 20);// element
