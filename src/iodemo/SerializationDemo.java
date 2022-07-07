@@ -21,7 +21,7 @@ public class SerializationDemo {
 		File f = new File("serial.txt");
 
 		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(f));
-		oos.writeObject(e1);//id name sala seccod address
+		oos.writeObject(e1);// id name sala seccod address
 		oos.close();
 
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream(f));
@@ -33,17 +33,18 @@ public class SerializationDemo {
 	}
 }
 
-class Address implements Serializable{
+class Address implements Serializable {
 	//
 	//
 	//
-	
+
 	State state = new State();
 }
 
-class State implements Serializable{
-	
+class State implements Serializable {
+
 }
+
 class PartTimeEmp extends Employee {
 
 }
