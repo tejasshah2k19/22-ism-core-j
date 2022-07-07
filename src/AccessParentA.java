@@ -19,7 +19,8 @@ class A extends ParentClass {
 		div();
 	}
 }
-
+//is a 
+//B extends ParentCLass 
 class B {
 	ParentClass p = new ParentClass();
 

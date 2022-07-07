@@ -240,7 +240,25 @@ Create 1 thread that find sum of 1 to 100 and print sum.
 create 2 thread 1st thread find sum of 1 to 50 and 2nd thread find sum of 51 to 100
 once both the thread find sum then print final sum. 
 -------------------------------------------------------------
-
+functional interface --> ? 1 
+						   0 marker 
+						   1+ interface 
+						   
+default method 
+static method 
+interface A{
+	void add();
+	default void addDefault(){
+	
+	}
+	static void addDefault2(){
+	
+	}
+}
+-------------------------------------------------------------
+						   
+design pattern ! 
+java design pattern ! 
 
 	
 	
