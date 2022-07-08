@@ -1,0 +1,95 @@
+git : tool
+github
+bitbucket 
+
+
+version control 
+
+
+install git 
+
+
+local repo -> project 
+
+
+remote repo -> github 
+
+you can not add any empty folder*
+
+local repo -> 
+			git init 
+			git remote add origin https://github.com/tejasshah2k19/ism-pract.git
+			
+			git status 
+			
+			git add src .classpath .project  // track this files for version control 
+			git commit -m "task1 "  src      //once i am done i will commit and push 
+			git commit -m "init" .classpath .project 
+			
+			git push origin master 
+			
+			.gitignore** 
+			
+			created two folders with file  -- task2 task3 
+			
+			git status 
+			
+			git add task2 
+			
+			git commit -m "task2" task2 
+			
+			git push origin master 
+			
+			changes in task 1 .java 
+			
+			git commit -m "index error fix" tas1/ArraySum.java
+			
+			git push origin master 
+			
+			##branch 
+			
+			git checkout -b task4 
+			
+			created task4 folder and StringPalindrome.java 
+			
+			git status 
+			
+			git add task4
+			
+			git commit src/task4 
+			
+			git push origin master 
+			
+			git checkout master 
+			
+			git checkout -b task5 
+			
+			add TwoArray.java 
+			
+			changes in task 1 also 
+			
+			git add/ commit/ push  
+			
+			git checkout master 
+			
+			now i am inside task4 and i create task_remove.txt and i modified StringPalindrome.java 
+			
+			git status 
+			2 files modified 
+			
+			what changes i done :- 
+			
+			git diff 
+			
+			
+			 
+			
+			
+			
+			
+			
+			
+			
+
+
+
