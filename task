@@ -18,7 +18,7 @@
 
 10) mysql 
 
-11) take an array of 5 numbers. 
+task 1) take an array of 5 numbers. 
     create right shift function which takes 1 argument countShift.
     if countShift is 1 and your array is a = [1,2,3,4,5] 
     output : 5 1 2 3 4 
@@ -26,7 +26,7 @@
     if countShift is 3 and your array is a = [1,2,3,4,5]
     output: 3 4 5 1 2 
     
-12) 
+task 2) 
 	Student 
 			-studentId 
 			-name 
@@ -42,7 +42,7 @@
     
     111111	ram	ram@gmail.com	ram123 
     
- 13)
+task 3)
  	class Levis 
  		name
  		price
@@ -72,9 +72,9 @@
    	  denim jeans 	1500	men 225  1725 
    	  
    	  
-14) perform leftshit in 11 number using recursion.    
+task 4) perform leftshit in 11 number using recursion.    
 
-15) 
+task 5) 
 
 Ticket Booking System.
 
@@ -93,18 +93,18 @@ One user can book max 7 Tickets.
 Total 60 tickets we have 20 Diamond , 20 Gold and 20 Silver.
 User can identified by mobile number. 
 
-16) 	  	    
+task 6) 	  	    
    	Move all the negative elements to one side of the array. 
 		input -> 1  3  -4  5  -6   23   -45    67   43   44   56   -90   100
 		Output -> 1  3   5    23   67   43    56    100   -4   -6  -45   -90  
    	
-17)
+task 7)
 	Find common Numbers from 2 one dimension arrays.
 		Array1:  1  2  3  4   5  6  7  
 		Array2:  2  9  5  10 15  7  80
 		Output : 2 5  7 
 	   
-18) 
+task 8) 
  Take array of n numbers from user , now modify array so positive and negative  numbers are set in alternate position,
  
 input ->   1   3   -4    5   -6   23    -45    67    43   44   56   -90   100
@@ -113,12 +113,12 @@ output->   1  -4   3    -6   5   -45     23   -90   67   43   44    56    100
 input->   1    2   3   4    5     -1    -2    -3   -4    -5 
 output->   1  -1   2   -2    3    -3     4    -4     5    -5
    		
- 19)  Create 2D array of N*N and find the max number from each row. 
+task 9)  Create 2D array of N*N and find the max number from each row. 
  	  		
    		
    		
  --------------------------------------------------------------------------------------------------
- 20) 
+task 10) 
  
  Telephone Diary 
 
@@ -142,7 +142,7 @@ e.g
    		
    			 
  ----------------------------------------------------------------------------------------------------------   
-   21) 
+   task 11) 
     Insurance Calc 
 		An insurance company follows following rules to calculate premium.
 		a. If a person’s health is excellent and the person is between 25 and 35 years of age and lives in a
@@ -156,7 +156,7 @@ e.g
 		   
    
    
-   22) check image task22.png for detail and Design class and define methods for above requirement. 
+   task 12) check image task22.png for detail and Design class and define methods for above requirement. 
    
 ----------------------------------------------------------------------------------------------------------   
     
@@ -182,7 +182,7 @@ e.g
   sync.    
   thread safe    
 	
-*) why ArrayList ? how it works internally ?  what if it overflow or it is possible?
+task 13) why ArrayList ? how it works internally ?  what if it overflow or it is possible?
 	what is the max size of ArrayList?
 
 
@@ -208,6 +208,8 @@ bootstrap - rt.jar
 ext
 system/application [classpath] 
 ----------------------------------------
+task 14)
+
 Bank App.
 
 Bank provides various service to the user  like deposit money, wid money and customer can check balance. 
@@ -226,6 +228,7 @@ Exit
 	1.3 CheckBal 
 	1.4 Logout 
 -------------------------------------------------------------
+task 15)
 You need to design an api for google LLC.   your api will verify the syntax of email address ,  syntax for email is , 
 it must contains gmail.com at last. 
 The name can have a-z A_Z 0-9
@@ -233,10 +236,10 @@ Between name(tejasshah)  and domain(gmail.com)  it must contains “@”
 If above rule is not followed then InvalidEmailException will throw by your api.   
 
 -------------------------------------------------------------
-
+task 16)
 Create 1 thread that find sum of 1 to 100 and print sum. 
 
-
+task 17)
 create 2 thread 1st thread find sum of 1 to 50 and 2nd thread find sum of 51 to 100
 once both the thread find sum then print final sum. 
 -------------------------------------------------------------
@@ -256,7 +259,7 @@ interface A{
 	}
 }
 -------------------------------------------------------------
-						   
+task 18)						   
 design pattern ! 
 java design pattern ! 
 
@@ -279,18 +282,21 @@ int a[] = {1,2,3,4,5};
 s.o.p(a); 	
 	
 -------------------------------------------------------------
+task 19) 
 take 10 numbers from user. now read that number and store into odd.txt if number is odd and 
 store into 	even.txt if number is even.
 
+task 20) 
 take 1 file name with entire path
 	if file is present count total number of vowels from it.
 	if file not present print file not present try again.
 	
+task 21)
 take 1 folder name with user and count how many java files present in that folder. 
 if user entered wrong directory handle that scenario with proper message. 
 
 
-
+task 22)
 create 1 file and store 100 name. 
 now open that file and read name and check any name is palindrome or not. [use thread ] 
  
